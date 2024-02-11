@@ -10,9 +10,9 @@
 
 .navbar {
     display: flex;
+    justify-content: space-between; /* Hier wird der Platz zwischen den Elementen gleichmäßig aufgeteilt */
     width: 100%;
     align-items: center;
-    justify-content: left;
     background: #0B0C10;
     position: fixed;
     top: 0;
@@ -22,6 +22,7 @@
 .navbar ul {
     display: flex;
     list-style: none;
+    padding-right: 60px;
 }
 
 .navbar ul li {
