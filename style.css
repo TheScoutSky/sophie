@@ -1,0 +1,102 @@
+* {
+    background-color: #0B0C10;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    background: #0B0C10;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.logo {
+    padding-right: 60px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.love {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0B0C10;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.love h1 {
+    color: red
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0B0C10;
+    padding: 20px;
+
+}
+
+.scroll img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+
+.love h3 {
+   padding-bottom: 0px;
+}
+
+.love h2 {
+    color: red;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.hearth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0B0C10;
+    padding-bottom: 40px;
+}
+
+.hearth img {
+    width: 100px;
+    height: 100px;
+}
+
+.space {
+    height: 90vh;
+}
