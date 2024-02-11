@@ -85,6 +85,13 @@
     font-size: 50px;
 }
 
+.sophie {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .hearth {
     display: flex;
     justify-content: center;
